@@ -1,0 +1,27 @@
+table,th,td{
+    border: solid;
+    
+}
+td.empty{
+    border: outset;
+    border-block-width: 15px;
+    padding: 10px;
+}
+table.empty{
+    
+    background-color: aquamarine;
+    border-block-width: 15px;
+    border-right-width: 15px;
+    border-left-width: 15px;
+    border-bottom-color: red;
+    border-top-color: green;
+    border-left-color:pink ;
+    border-right-color: black;
+}
+a:hover{
+    color:black;
+}
+p::first-line{
+    color: pink;
+    text-transform: uppercase;
+}
